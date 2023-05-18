@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+        
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    
+    text-align: center;
+    background-color: antiquewhite;
+    
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid darkgreen;
+
+    padding: 10px;
+    
+    margin: 10px auto 50px auto ;
+
+    outline-width: 3 px;
+    outline-style: dashed;
+    outline-color: bisque;
+
+
+
+}
+
+a {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(3, 25, 190);
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(11, 84, 174);
+            background-color: rgb(12, 197, 238);
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav {
+            background-image: linear-gradient(to top, rgb(68, 191, 235), rgb(12, 112, 227));
+            padding: 3px;
+
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.208);
+
+        
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            margin-right: 30px;
+            padding: 5px;
+        }
+
+        nav > a:hover {
+            color: orange;
+            text-decoration: underline;
+
+        }
+
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px ;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.208) ;
+
+        }
+
+        article {
+            background-color: rgb(137, 241, 255);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.208) ;
+        }
+        article >aside {
+            background-color: rgb(177, 177, 177);
+            padding: 5px;
+        }
+
+         abbr {
+            background-color: rgb(32, 61, 251);
+            color: rgb(241, 241, 241);
+            text-decoration: none;
+
+        }
+
+         abbr:hover {
+            color: rgb(27, 27, 27);
+            text-decoration: underline;
+
+        }
+        
+
+        footer {
+            background-color: rgb(9, 102, 139);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0
+            ;
+        }
+        
+        div#bola {
+            background-color: aliceblue;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a class="menu" href="#">Home</a>
+            <a class="menu" href="#">Valores</a>
+            <a class="menu" href="#">Quem somos</a>
+            <a class="menu"  href="#">Link</a>
+            <a class="menu"  href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+            <p>Esportes politica e tecnologia.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <section id="assuntos">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem eum maiores, maxime, delectus totam, voluptas harum voluptatibus deserunt numquam earum dolorem itaque ea cupiditate omnis. <abbr title="Sei lá">Molestias</abbr> pariatur voluptatem accusamus aut!</p>
+                <aside>
+                    <p>Artigo escrito por josé da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo <abbr title="O gostoso">John</abbr></p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
