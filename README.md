@@ -3,5 +3,5 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href="https://johnaraujo007.github.io/html-css/desafios/desafio10/android">
+ <a target="_blank" href="https://johnaraujo007.github.io/html-css/desafios/desafio10/android">
  Executar o Site 
